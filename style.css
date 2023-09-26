@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+}
+
+
+/*.myDiv {
+	border: 5px outset black;
+	background-color: white;
+	text-align: center;
+}
+
+*/
+
+body {
+	background-color: whitesmoke;
+}
+
+.class-for-index{
+	color:black;
+
+}
+.grid-container{
+	grid-template-columns: auto auto auto;
+	padding: 50px;
+}
+
+
+/*
+section::after{
+	content: "";
+	display: table;
+ 	padding: 30px;
+ 	margin: 40px;
+}
+*/
+ul{
+	list-style-type: circle;
+	padding:0;
+
+}
+
+h1{
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	padding: 100px;
+}
+
+
+.grid-item{
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	position: sticky;
+	margin: 100px;
+	width: 300px;
+	height: 100px;
+	font-style: italic ;
+}
+
+/*.about{ 
+	background-color: white;
+	padding: 30px;
+	margin: 100px;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+	float: left;
+
+}
+*/
+
+/* idk if this image is being styled or not*/
+
+
+section.fotoprof div {
+	width: 636px;
+	height: 636px;
+
+}
+
+section.emailandphone div{
+	list-style-type: disc;
+	font-size: 30px;
+	color: black;
+	text-align: left;
+}
+
+section.aboutheader div{
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	padding: 30px;
+
+}
+
+section.abouttext1header div{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	font-style: italic;
+
+}
+section.abouttext1 div{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	padding: 30px;
+}
+
+section.abouttext2header div{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	font-style: italic;
+	padding: 30px;
+
+}
+section.abouttext2 div{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+/*
+h1{
+	font-size: 75px;
+}
+
+p{
+	font-size: 50px;
+}
+*/
