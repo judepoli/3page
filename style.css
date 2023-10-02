@@ -39,14 +39,30 @@ ul{
 
 }
 
-h1{
-	font-size: 50px;
-	color: black;
-	text-align: center;
-	padding: 100px;
+.flexbox-container{
+	display: flex;
 }
 
+.flexbox-item1 {
+	font-size: 50px;
+	color: black;
+	justify-content: space-between;
 
+}
+
+.flexbox-item2{
+	font-size: 50px;
+	color: blueviolet;
+	justify-content: space-between;
+}
+
+.flexbox-item3{
+	font-size: 50px;
+	color: darkred;
+	justify-content: space-between;
+}
+
+/*
 .grid-item{
 	background-color: white;
 	padding: 10px;
@@ -60,7 +76,7 @@ h1{
 	font-style: italic ;
 }
 
-/*.about{ 
+.about{ 
 	background-color: white;
 	padding: 30px;
 	margin: 100px;
