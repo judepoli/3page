@@ -12,20 +12,16 @@
 */
 
 body {
-	background-color: whitesmoke;
+	background-color: lightgrey;
 }
 
-.class-for-index{
-	color:black;
 
-}
+
+/*
 .grid-container{
 	grid-template-columns: auto auto auto;
 	padding: 50px;
 }
-
-
-/*
 section::after{
 	content: "";
 	display: table;
@@ -33,34 +29,49 @@ section::after{
  	margin: 40px;
 }
 */
-ul{
-	list-style-type: circle;
-	padding:0;
 
-}
 
-.flexbox-container{
+.nav_bar {
 	display: flex;
-}
-
-.flexbox-item1 {
-	font-size: 50px;
+	list-style-type: none;	
+	background-color: darkgrey;
+	justify-content: center;
 	color: black;
-	justify-content: space-between;
+	font-size: 20px;
+}
+
+
+
+.header_home {
+	font-size: 40px;
+	color: dimgray;
+	margin: 40px;
+	text-align: center;
+}
+
+.foto1 {
+	align-items: center;
+	border-radius: 50%;
+}
+
+.texts_home{
+	display: flex;
+	font-size: 20px;
+	color: black;
+	margin: 40px;
+	justify-content: space-around;
+	gap: 40px;
+
 
 }
 
-.flexbox-item2{
-	font-size: 50px;
-	color: blueviolet;
-	justify-content: space-between;
+
+.trst_img {
+	display: flex;
+	justify-content: center;
 }
 
-.flexbox-item3{
-	font-size: 50px;
-	color: darkred;
-	justify-content: space-between;
-}
+
 
 /*
 .grid-item{
@@ -88,14 +99,16 @@ ul{
 }
 */
 
-/* idk if this image is being styled or not*/
+/* idk if this image is being styled or not
 
 
-section.fotoprof div {
-	width: 636px;
-	height: 636px;
 
-}
+*/
+
+
+
+
+
 
 section.emailandphone div{
 	list-style-type: disc;
@@ -104,42 +117,48 @@ section.emailandphone div{
 	text-align: left;
 }
 
-section.aboutheader div{
+.intro_books {
+	display: flex;
 	font-size: 60px;
 	color: black;
-	text-align: center;
-	padding: 30px;
-
+	justify-content: center;
 }
 
-section.abouttext1header div{
-	font-size: 40px;
+.questa_mia {
+	display: flex;
 	color: black;
-	text-align: center;
-	font-style: italic;
+	font-size: 20px;
+	justify-content: center;
+	margin: 30px;
 
 }
-section.abouttext1 div{
-	font-size: 30px;
-	color: black;
-	text-align: center;
-	padding: 30px;
-}
 
-section.abouttext2header div{
-	font-size: 40px;
+.un_paio{
+	display: flex;
 	color: black;
-	text-align: center;
-	font-style: italic;
-	padding: 30px;
+	font-size: 20px;
+	justify-content: center;
+	margin: 30px;
+
 
 }
-section.abouttext2 div{
-	font-size: 30px;
-	color: black;
-	text-align: center;
-}
+
 /*
+.abouttext2header {
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	font-style: italic;
+	padding: 30px;
+
+}
+
+.abouttext2 {
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
 h1{
 	font-size: 75px;
 }
