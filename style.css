@@ -12,7 +12,7 @@
 */
 
 body {
-	background-color: lightgrey;
+	background-color: darkred;
 }
 
 
@@ -30,34 +30,48 @@ section::after{
 }
 */
 
+ul{
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
 
-.nav_bar {
-	display: flex;
-	list-style-type: none;	
-	background-color: darkgrey;
-	justify-content: center;
-	color: black;
-	font-size: 20px;
+
+}
+
+li{
+	float: left;
+}
+
+li a {
+	display: block;	
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 30px;
 }
 
 
 
 .header_home {
 	font-size: 40px;
-	color: dimgray;
+	color: white;
 	margin: 40px;
 	text-align: center;
+	padding: 40px;
 }
 
 .foto1 {
-	align-items: center;
+	display: block;	
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 50%;
+
 }
 
 .texts_home{
 	display: flex;
 	font-size: 20px;
-	color: black;
+	color: lightgray;
 	margin: 40px;
 	justify-content: space-around;
 	gap: 40px;
@@ -67,8 +81,9 @@ section::after{
 
 
 .trst_img {
-	display: flex;
-	justify-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -106,41 +121,47 @@ section::after{
 */
 
 
-
-
-
-
-section.emailandphone div{
-	list-style-type: disc;
-	font-size: 30px;
-	color: black;
-	text-align: left;
-}
-
 .intro_books {
 	display: flex;
 	font-size: 60px;
-	color: black;
-	justify-content: center;
+	padding: 40px;
+}
+
+.image_container{
+	transform: translate(80px, -400px);
 }
 
 .questa_mia {
 	display: flex;
-	color: black;
+	color: lightgray;
 	font-size: 20px;
-	justify-content: center;
-	margin: 30px;
+	margin: 40px;
+	justify-content: space-around;
+	gap: 40px;
 
 }
 
 .un_paio{
 	display: flex;
-	color: black;
+	color: lightgray;
 	font-size: 20px;
-	justify-content: center;
-	margin: 30px;
+	margin: 40px;
+	justify-content: space-around;
+	gap: 40px;
+
+}
 
 
+.emailandphone {
+	list-style-type: disc;
+	font-size: 30px;
+	color: white;
+	text-align: left;
+	padding: 30px;
+}
+
+a{
+	color: white;
 }
 
 /*
